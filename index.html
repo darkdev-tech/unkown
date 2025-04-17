@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DARK-MD V² - WhatsApp Bot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+    }header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #00ffcc;
+}
+
+p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.card {
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,255,204,0.2);
+}
+
+.card h3 {
+  color: #00ffcc;
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #00ffcc;
+  color: #000;
+  padding: 12px 25px;
+  margin-top: 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #555;
+  font-size: 14px;
+}
+
+.glow {
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 40px;
+  color: #00ffcc;
+}
+
+.qr-section, .deploy-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.qr-section img {
+  width: 200px;
+  border: 3px solid #00ffcc;
+  border-radius: 10px;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+.code-box {
+  background: #111;
+  padding: 20px;
+  color: #0f0;
+  font-family: monospace;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1 class="glow">DARK-MD V²</h1>
+    <p>The ultimate WhatsApp bot with XP system, group tools, media magic, and a stylish vibe.</p>
+    <a href="#deploy" class="btn">Deploy / Invite</a>
+  </header>  <section class="features">
+    <div class="card">
+      <h3>XP System</h3>
+      <p>Earn XP with every message. Level up and show your rank in the server leaderboard.</p>
+    </div>
+    <div class="card">
+      <h3>Group Tools</h3>
+      <p>Manage groups like a pro with admin tools, anti-link, welcome/goodbye, and more.</p>
+    </div>
+    <div class="card">
+      <h3>Media Commands</h3>
+      <p>Download videos, audio, images, and even convert media to stickers or voice notes.</p>
+    </div>
+    <div class="card">
+      <h3>Stylish Menu</h3>
+      <p>Enjoy a cool menu with system info, media banner, categories, and custom voices.</p>
+    </div>
+  </section>  <div class="section-title">Scan QR to Connect</div>
+  <section class="qr-section">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/0000000000&size=200x200" alt="QR Code">
+    <p>Scan this QR with your WhatsApp to connect DARK-MD V².</p>
+  </section>  <div class="section-title">Voice Sample</div>
+  <section class="qr-section">
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Sample voice note from DARK-MD V²'s stylish menu.</p>
+  </section>  <div class="section-title" id="deploy">Deployment Guide</div>
+  <section class="deploy-section">
+    <div class="code-box">
+      git clone https://github.com/yourusername/DARK-MD-V2<br>
+      cd DARK-MD-V2<br>
+      npm install<br>
+      node index.js
+    </div>
+    <p>Make sure to set up your <code>.env</code> with the correct session and API keys.</p>
+  </section>  <footer>
+    © 2025 DARK-MD V² | Built for the future of WhatsApp automation.
+  </footer></body>
+</html>
